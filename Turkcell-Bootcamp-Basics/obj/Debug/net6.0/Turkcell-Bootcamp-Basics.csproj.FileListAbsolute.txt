@@ -1,0 +1,15 @@
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\bin\Debug\net6.0\Turkcell-Bootcamp-Basics.exe
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\bin\Debug\net6.0\Turkcell-Bootcamp-Basics.deps.json
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\bin\Debug\net6.0\Turkcell-Bootcamp-Basics.runtimeconfig.json
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\bin\Debug\net6.0\Turkcell-Bootcamp-Basics.dll
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\bin\Debug\net6.0\Turkcell-Bootcamp-Basics.pdb
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\Turkcell-Bootcamp-Basics.csproj.AssemblyReference.cache
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\Turkcell-Bootcamp-Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\Turkcell-Bootcamp-Basics.AssemblyInfoInputs.cache
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\Turkcell-Bootcamp-Basics.AssemblyInfo.cs
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\Turkcell-Bootcamp-Basics.csproj.CoreCompileInputs.cache
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\Turkcell-Bootcamp-Basics.dll
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\refint\Turkcell-Bootcamp-Basics.dll
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\Turkcell-Bootcamp-Basics.pdb
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\Turkcell-Bootcamp-Basics.genruntimeconfig.cache
+C:\Users\ayser\source\repos\Turkcell-Bootcamp-Basics\obj\Debug\net6.0\ref\Turkcell-Bootcamp-Basics.dll
