@@ -7,7 +7,7 @@
  *  Int16.MaxValue = 32,767                         short
  */
 
-// Do-While-Loop
+// For-Each-Loop
 
 bool flag=false;
 do
@@ -35,14 +35,13 @@ do
         Int64 min = array[0];
         Int64 sum = 0;
 
-        i = 1;
-        while (i < numOfInts)
+        foreach (Int64 x in array)
         {
-            if (array[i] > max) max = array[i];
-            else if (array[i] < min) min = array[i];
-            checked { sum += array[i]; }
-            i++;
+            if (x > max) max = x;
+            else if (x < min) min = x;
+            checked { sum += x; }
         }
+
         Double mean = (Double)(sum / numOfInts);
 
 
