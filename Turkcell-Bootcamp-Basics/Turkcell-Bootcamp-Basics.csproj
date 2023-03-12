@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="hw01_forEachLoop.cs" />
     <Compile Remove="hw01_forLoop.cs" />
     <Compile Remove="hw01_whileLoop.cs" />
   </ItemGroup>
