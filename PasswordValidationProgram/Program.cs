@@ -41,25 +41,18 @@ void checkPasswordStrength(String password)
 }
 Boolean isLengthReqSatisfied(String password)
 {
-    if (password.Length < 6) return false; // tek satırda yaz ternary
-    return true;
+    return (password.Length < 6 ? false : true);
+
 }
 void GiveFeedback(String password)
 {
-    if (isLengthReqSatisfied(password))
-    {
-        Console.WriteLine($"karakter sınırı ok.");
-        checkPasswordStrength(password);
-    }
+    if (isLengthReqSatisfied(password)) checkPasswordStrength(password);
     else Console.WriteLine($"6 karakterden az");
-
 
 }
 String getUserPassword()
 {
     String password = Convert.ToString(Console.ReadLine());
-
-    //Console.WriteLine(Convert.ToString(password));
     return password;
 }
 
