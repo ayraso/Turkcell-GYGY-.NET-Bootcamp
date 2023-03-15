@@ -57,7 +57,6 @@ void GiveFeedback(String password)
 }
 String getUserPassword()
 {
-    Console.SetCursorPosition((Console.WindowWidth - 32) / 2 + 2, Console.CursorTop - 2 );
     String password = Convert.ToString(Console.ReadLine());
 
     //Console.WriteLine(Convert.ToString(password));
@@ -70,13 +69,37 @@ void DisplayOnTheScreen(string s)
     Console.WriteLine(s);
 }
 
+String BuildMessageArea(Int16 divWidth, String messageContent)
+{
+    String msg = new string(' ', divWidth - 2);
+    Int16 padding = 1;
+    msg = msg.Remove(padding, messageContent.Length);
+    msg = msg.Insert(padding, messageContent);
+    msg = String.Concat('|', msg, '|');
+    return msg;
+}
 void OpenUserInterface()
 {
-    DisplayOnTheScreen($"______________________________");
-    DisplayOnTheScreen($"| Enter your password below:   |");
-    DisplayOnTheScreen($"------------------------------");
-    DisplayOnTheScreen($"|                              |");
-    DisplayOnTheScreen($"------------------------------");
+    Int16 centeredDivHeight = 10;
+    Int16 centeredDivWidth = 40;
+
+    String centeredDiv_axisX_wall = new String('-', centeredDivWidth - 2);
+    centeredDiv_axisX_wall = String.Concat('+', centeredDiv_axisX_wall, '+');
+
+    String centeredDiv_axisX_ioArea = new string(' ', centeredDivWidth - 2);
+    centeredDiv_axisX_ioArea = String.Concat('|', centeredDiv_axisX_ioArea, '|');
+
+    Console.SetCursorPosition(Console.CursorLeft, (Console.WindowHeight - centeredDivHeight) / 2);
+
+    DisplayOnTheScreen(centeredDiv_axisX_wall);
+    String m = "Enter your password below:";
+    DisplayOnTheScreen(BuildMessageArea(centeredDivWidth, m));
+    DisplayOnTheScreen(centeredDiv_axisX_wall);
+    DisplayOnTheScreen(centeredDiv_axisX_ioArea);
+    DisplayOnTheScreen(centeredDiv_axisX_wall);
+
+    Console.SetCursorPosition((Console.WindowWidth - centeredDivWidth) / 2 + 2, Console.CursorTop - 2);
+
 }
 
 enum StrengthLevel
