@@ -7,21 +7,9 @@ String getUserPassword()
     Console.SetCursorPosition((Console.WindowWidth - 32) / 2 + 2, Console.CursorTop - 2 );
     String password = String.Empty;
 
-    do
-    {
-        password += Convert.ToString(Console.ReadLine());
-        HideUserInput();
-    } while (Console.Read() != (char)ConsoleKey.Enter);
+    password += Convert.ToString(Console.ReadLine());
+    HideUserInput();
 
-    //while (Console.Read() != (char)ConsoleKey.Enter)
-    //{
-    //    if (Console.Read() != (char)ConsoleKey.Enter)
-    //    {
-    //        password += Convert.ToString(Console.ReadLine());
-    //        HideUserInput();
-    //    }
-    //    else break;
-    //}
     Console.WriteLine(Convert.ToString(password));
     return password;
 }
