@@ -1,19 +1,28 @@
 ﻿OpenUserInterface();
-string password = getUserPassword();
 
-string getUserPassword()
+String password = getUserPassword();
+
+String getUserPassword()
 {
     Console.SetCursorPosition((Console.WindowWidth - 32) / 2 + 2, Console.CursorTop - 2 );
-    string password = string.Empty;
-    while (Console.Read() != -1) // enter press edildiği clean değil. bunu düzelt
-    {
-        if(Console.Read() != (char)13)
-        {
-            password += Console.Read();
-            HideUserInput();
-        }
+    String password = String.Empty;
 
-    }
+    do
+    {
+        password += Convert.ToString(Console.ReadLine());
+        HideUserInput();
+    } while (Console.Read() != (char)ConsoleKey.Enter);
+
+    //while (Console.Read() != (char)ConsoleKey.Enter)
+    //{
+    //    if (Console.Read() != (char)ConsoleKey.Enter)
+    //    {
+    //        password += Convert.ToString(Console.ReadLine());
+    //        HideUserInput();
+    //    }
+    //    else break;
+    //}
+    Console.WriteLine(Convert.ToString(password));
     return password;
 }
 
