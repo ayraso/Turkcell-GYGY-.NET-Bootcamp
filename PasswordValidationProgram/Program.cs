@@ -22,19 +22,21 @@ void checkPasswordStrength(String password)
         else if (!containsAlphabeticalChar && Char.IsLetter(password[i]))         { containsAlphabeticalChar = true; strenghtLevel += 1; }
     }
 
+    SetCursorToWarningField(40, 10);
+
     switch (strenghtLevel)
     {
         case StrengthLevel.Invalid:
-            Console.WriteLine($"yetersiz karakter");
+            Console.WriteLine($"Short Password!");
             break;
         case StrengthLevel.Weak:
-            Console.WriteLine($"weak");
+            Console.WriteLine($"Weak Password!");
             break;
         case StrengthLevel.Medium:
-            Console.WriteLine($"medium");
+            Console.WriteLine($"Medium Password!");
             break;
         case StrengthLevel.Strong:
-            Console.WriteLine($"strong");
+            Console.WriteLine($"Strong Password.");
             break;
     }
 
@@ -48,7 +50,6 @@ void GiveFeedback(String password)
 {
     if (isLengthReqSatisfied(password)) checkPasswordStrength(password);
     else Console.WriteLine($"6 karakterden az");
-
 }
 String getUserPassword()
 {
@@ -62,37 +63,47 @@ void DisplayOnTheScreen(string s)
     Console.WriteLine(s);
 }
 
-String BuildMessageArea(Int16 divWidth, String messageContent)
+String MakeHorizontalDiv(Int16 divWidth, Char verticalEdges, Char messageContent)
+{
+    String div_axisX_wall = new String(messageContent, divWidth - 2);
+    div_axisX_wall = String.Concat(verticalEdges, div_axisX_wall, verticalEdges);
+
+    return div_axisX_wall;
+}
+String MakeHorizontalIODiv(Int16 divWidth, Char verticalEdges, String messageContent)
 {
     String msg = new string(' ', divWidth - 2);
     Int16 padding = 1;
     msg = msg.Remove(padding, messageContent.Length);
     msg = msg.Insert(padding, messageContent);
-    msg = String.Concat('|', msg, '|');
+    msg = String.Concat(verticalEdges, msg, verticalEdges);
+
     return msg;
+}
+void SetCursorToInputField(Int16 divWidth, Int16 divHeight)
+{
+    Console.SetCursorPosition((Console.WindowWidth - divWidth) / 2 + 2, (Console.WindowHeight - divHeight) - 7);
+}
+void SetCursorToWarningField(Int16 divWidth, Int16 divHeight)
+{
+    Console.SetCursorPosition((Console.WindowWidth - divWidth) / 2 + 2, (Console.WindowHeight - divHeight) - 5);
 }
 void OpenUserInterface()
 {
     Int16 centeredDivHeight = 10;
     Int16 centeredDivWidth = 40;
 
-    String centeredDiv_axisX_wall = new String('-', centeredDivWidth - 2);
-    centeredDiv_axisX_wall = String.Concat('+', centeredDiv_axisX_wall, '+');
-
-    String centeredDiv_axisX_ioArea = new string(' ', centeredDivWidth - 2);
-    centeredDiv_axisX_ioArea = String.Concat('|', centeredDiv_axisX_ioArea, '|');
+    String centeredDiv_axisX_wall = MakeHorizontalDiv(centeredDivWidth, '+', '-');
+    String centeredDiv_axisX_ioArea = MakeHorizontalDiv(centeredDivWidth, '|', ' ');
 
     Console.SetCursorPosition(Console.CursorLeft, (Console.WindowHeight - centeredDivHeight) / 2);
 
     DisplayOnTheScreen(centeredDiv_axisX_wall);
-    String m = "Enter your password below:";
-    DisplayOnTheScreen(BuildMessageArea(centeredDivWidth, m));
+    DisplayOnTheScreen(MakeHorizontalIODiv(centeredDivWidth, '|', "Enter your password below:"));
     DisplayOnTheScreen(centeredDiv_axisX_wall);
     DisplayOnTheScreen(centeredDiv_axisX_ioArea);
     DisplayOnTheScreen(centeredDiv_axisX_wall);
-
-    Console.SetCursorPosition((Console.WindowWidth - centeredDivWidth) / 2 + 2, Console.CursorTop - 2);
-
+    SetCursorToInputField(centeredDivWidth, centeredDivHeight);
 }
 
 enum StrengthLevel
