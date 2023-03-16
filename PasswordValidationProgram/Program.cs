@@ -6,7 +6,6 @@ GiveFeedback(password);
 
 void checkPasswordStrength(String password)
 {
-    // geri bildirimi özelleştirmek için kullanıcam bunları. sadece strength level belirtilecekse gerek yok.
     Boolean containsNumericChar      = false;
     Boolean containsSymbolChar       = false;
     Boolean containsAlphabeticalChar = false;
@@ -22,6 +21,10 @@ void checkPasswordStrength(String password)
         else if (!containsAlphabeticalChar && Char.IsLetter(password[i]))         { containsAlphabeticalChar = true; strenghtLevel += 1; }
     }
 
+    PrintPasswordAnalyze(strenghtLevel);
+}
+void PrintPasswordAnalyze(StrengthLevel strenghtLevel)
+{
     SetCursorToWarningField(40, 10);
 
     switch (strenghtLevel)
@@ -44,12 +47,15 @@ void checkPasswordStrength(String password)
 Boolean isLengthReqSatisfied(String password)
 {
     return (password.Length < 6 ? false : true);
-
 }
 void GiveFeedback(String password)
 {
     if (isLengthReqSatisfied(password)) checkPasswordStrength(password);
-    else Console.WriteLine($"6 karakterden az");
+    else
+    {
+        StrengthLevel strenghtLevel = StrengthLevel.Invalid;
+        PrintPasswordAnalyze(strenghtLevel);
+    }
 }
 String getUserPassword()
 {
