@@ -40,13 +40,13 @@ void PrintPasswordAnalyze(StrengthLevel strenghtLevel)
             DisplayOnTheScreen(MakeHorizontalIODiv(40, ' ', "Short Password!"));
             break;
         case StrengthLevel.Weak:
-            Console.WriteLine($"Weak Password!");
+            DisplayOnTheScreen(MakeHorizontalIODiv(40, ' ', "Weak Password!"));
             break;
         case StrengthLevel.Medium:
-            Console.WriteLine($"Medium Password.");
+            DisplayOnTheScreen(MakeHorizontalIODiv(40, ' ', "Medium Password!"));
             break;
         case StrengthLevel.Strong:
-            Console.WriteLine($"Strong Password.");
+            DisplayOnTheScreen(MakeHorizontalIODiv(40, ' ', "Strong Password!"));
             break;
     }
 
