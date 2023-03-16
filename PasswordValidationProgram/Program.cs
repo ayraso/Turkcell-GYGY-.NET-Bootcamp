@@ -6,11 +6,11 @@
 while (true)
 {
     OpenUserInterface();
-    String password = getUserPassword();
+    String password = GetUserPassword();
     GiveFeedback(password);
 }
 
-void checkPasswordStrength(String password)
+void CheckPasswordStrength(String password)
 {
     Boolean containsNumericChar      = false;
     Boolean containsSymbolChar       = false;
@@ -57,14 +57,14 @@ Boolean isLengthReqSatisfied(String password)
 }
 void GiveFeedback(String password)
 {
-    if (isLengthReqSatisfied(password)) checkPasswordStrength(password);
+    if (isLengthReqSatisfied(password)) CheckPasswordStrength(password);
     else
     {
         StrengthLevel strenghtLevel = StrengthLevel.Invalid;
         PrintPasswordAnalyze(strenghtLevel);
     }
 }
-String getUserPassword()
+String GetUserPassword()
 {
     String password = Convert.ToString(Console.ReadLine());
     return password;
