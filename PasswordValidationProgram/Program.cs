@@ -1,8 +1,13 @@
-﻿OpenUserInterface();
-String password = getUserPassword();
-GiveFeedback(password);
+﻿// harf sayı sembol ün birli kominasyonları = weak
+// harf sayı sembol ün ikili kominasyonları = medium
+// harf sayı sembol ün üçlü  kombinasyonu   = strong
 
-
+while (true)
+{
+    OpenUserInterface();
+    String password = getUserPassword();
+    GiveFeedback(password);
+}
 
 void checkPasswordStrength(String password)
 {
@@ -25,18 +30,19 @@ void checkPasswordStrength(String password)
 }
 void PrintPasswordAnalyze(StrengthLevel strenghtLevel)
 {
+    // class oluşturup width height ı değişkende sakla
     SetCursorToWarningField(40, 10);
 
     switch (strenghtLevel)
     {
         case StrengthLevel.Invalid:
-            Console.WriteLine($"Short Password!");
+            DisplayOnTheScreen(MakeHorizontalIODiv(40, ' ', "Short Password!"));
             break;
         case StrengthLevel.Weak:
             Console.WriteLine($"Weak Password!");
             break;
         case StrengthLevel.Medium:
-            Console.WriteLine($"Medium Password!");
+            Console.WriteLine($"Medium Password.");
             break;
         case StrengthLevel.Strong:
             Console.WriteLine($"Strong Password.");
