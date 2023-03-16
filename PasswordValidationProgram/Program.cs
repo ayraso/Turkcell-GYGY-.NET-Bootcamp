@@ -1,4 +1,5 @@
-﻿// harf sayı sembol ün birli kominasyonları = weak
+﻿// uzunluk < 6                              = short
+// harf sayı sembol ün birli kominasyonları = weak
 // harf sayı sembol ün ikili kominasyonları = medium
 // harf sayı sembol ün üçlü  kombinasyonu   = strong
 
