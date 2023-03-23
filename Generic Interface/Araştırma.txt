@@ -42,9 +42,44 @@ Invariance = neither
 
 Generic Type, class olmak zorunda deðil; interface de olabilir.
 
+Aþaðýda bu kavramlarýn neden kullanýldýðýný açýklamak adýna bir örnek kod paylaþýyorum.:
+------------------------------------------main.cpp-----
+class MesrubatBardagi { }
+class BiraBardagi : MesrubatBardagi { }
+ 
+interface Bardaklarim<T> { }
+ 
+class Program
+{
+    static void Main(string[] args)
+    {
+        Bardaklarim<BiraBardagi> biraB = null;
+        Bardaklarim<MesrubatBardagi> mesrubatB = biraB;
+    }
+}
+-------------------------------------------------------
+Bu kod, bira bardaðý (biraB) read-only olmadýðý için Bardaklarim Interface'ine parametre olarak gelebilecek gazozlar yüzünden compile etmez.
+Nesnenin read-only (covariant) olduðunu belirtmek için "out" keyword'ü kullanýlýr.
+-------------------------------------------------------
+interface Bardaklarim<out T> { }
+-------------------------------------------------------
+Bardaklarim interfaceine, bardaða dolum yapan bir fonksiyon eklemek istiyorsak, 
+interface'i (write-only) contravariance yapmamýz gerekir. Bunun için "in" keyword'ü kullanýrýz.
+-------------------------------------------------------
+interface Bardaklarim<in T> 
+{
+    void Dolum(T bardak);
+}
+-------------------------------------------------------
 
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/creating-variant-generic-interfaces
 
 https://web.archive.org/web/20140626123445/http://adamnathan.co.uk/?p=75
+
+https://stackoverflow.com/questions/2719954/understanding-covariant-and-contravariant-interfaces-in-c-sharp
+
 
 
 
