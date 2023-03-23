@@ -1,0 +1,54 @@
+Senaryo Teması: Taşıtlar
+Taşıt Sınıfı: Hava, kara, su (ve hatta uzay) kanallarında yolcu ve yük taşımacılığında kullanılan tüm taşıtlar bu sınıftan miras alır. 
+-Kapasite: Ağırlık kapasitesi
+-Yakıt türü
+-Taşıma ortamı
+-Rota
+-Kalkış noktası
+-Varış noktası
++Taşıma eylemini gerçekleştirme fonksiyonu
++Rota değiştirme fonksiyonu
+
+Taşımacılıkta kullanılan nesneler için taşıt kavramı herhangi bir özelleştirmeyi sağlamayıp genel bir ifade olduğundan dolayı taşıt sınıfı abstract olabilir. 
+Taşıma eylemi, her farklı kategorideki araç için farklılık gösterdiğinden dolayı; taşıma eylemini gerçekleştirme fonksiyonu, polimorfik ve abstract bir method olmalıdır.
+Rota değiştirme fonksiyonu her taşıtta aynı şekilde gerçekleştirilebilir o yüzden abstract olmasına gerek yoktur.
+Bazı taşıtlar yolcu, bazı taşıtlar yük, bazı taşıtlar hem yolcu hem de yük taşımada kullanıldığı için yük ve yolcu taşıma eylemlerini farklı Interface’ler olarak implement edebiliriz.
+Taşıt sınıfının var olma işini gerçekleştirebilmesi için rotaya, kalkış ve varış noktasına ihtiyaç yoktur, aksine bu özellikler nesnenin var olma süreci boyunca değişebilmektedir. Ancak, bir taşıt var olduğunda kapasitesi, yakıt türü ve taşıma ortamıyla birlikte var olur. Bu yüzden bu özellikler taşıt sınıfının constructor’ında yer alabilir. 
+Otonom ve uzaktan kontrollü araçların varlığından dolayı abstract sınıfa ‘kumandan kişi unvanı’ dahil edilmemiştir.
+
+Hava Taşıt ı Sınıfı: Taşıt sınıfından kalıtılmıştır. 
+-Taşıma ortamı = Hava
+-Kumandan kişi unvanı: pilot
+	Uçak Sınıfı: Hava taşıtı sınıfından kalıtılmıştır.
+	+Kule ile haberleşme fonksiyonu
+		Kargo Uçağı Sınıfı: Uçak sınıfından kalıtılmıştır. Sadece yük taşıma interface’ini kullanır.
+		Yolcu Uçağı Sınıfı: Uçak sınıfından kalıtılmıştır. Hem yük taşıma hem de yolcu taşıma interface’ini kullanır.
+	Helikopter Sınıfı: Hava taşıtı sınıfından kalıtılmıştır. 
+		Nakliye Helikopteri: Helikopter sınıfından kalıtılmıştır. Sadece yük taşıma interface’ini kullanır.
+		Saldırı Helikopterleri: Helikopter sınıfından kalıtılmıştır. Hem yük taşıma hem de yolcu taşıma interface’ini kullanır.
+		+Silah hazırlama fonksiyonu
+		+Ateşleme fonksiyonu
+		
+Kara Taşıt Sınıfı: Taşıt sınıfından kalıtılmıştır.
+Taşıma ortamı = Kara
+	Tren Sınıfı: Kara taşıtı sınıfından kalıtılmıştır.
+	-Kumandan kişi unvanı: makinist
+	+Düdük çalma fonksiyonu
+	Otobüs Sınıfı: Kara taşıtı sınıfından kalıtılmıştır.
+	-Kumandan kişi unvanı: şoför
+	+Korna çalma fonksiyonu
+
+Su Taşıtı Sınıfı: Taşıt sınıfından kalıtılmıştır.
+Taşıma ortamı = Su
+-Kumandan kişi unvanı: kaptan	
+	Feribot Sınıfı: Su taşıtı sınıfından kalıtılmıştır.
+	Konteyner Gemisi Sınıfı: Su taşıtı sınıfından kalıtılmıştır.
+	Cruise Gemisi Sınıfı: Su taşıtı sınıfından kalıtılmıştır.
+
+Uzay Taşıtı Sınıfı: Taşıt sınıfından kalıtılmıştır.
+Taşıma ortamı = Uzay
+	Uzay Roketi: Uzay taşıt sınıfından kalıtılmıştır.
+	Uzay Mekiği: Uzay taşıtı sınıfından kalıtılmıştır.
+
+
+
