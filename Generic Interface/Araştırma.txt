@@ -35,11 +35,12 @@ Bu yüzden önerme aþaðýdaki þekilde deðiþir.:
 Bu da baðýmlý kiþi nesnesini write-only olmak zorunda býrakýr.
 
 Toparlamak gerekirse; 
-Bardak her zaman yalnýzca T return eder ve hiçbir zaman parametre almaz. 
-Baðýmlý kiþi hiçbir zaman return etmez ve her zaman sadece T parametresi alýr.
+Bardak her zaman yalnýzca T return eder ve hiçbir zaman T'yi parametre olarak almaz. 
+Baðýmlý kiþi hiçbir zaman T return etmez ve her zaman sadece T parametresi alýr.
 
 Invariance = neither
 
+Generic Type, class olmak zorunda deðil; interface de olabilir.
 
 
 
