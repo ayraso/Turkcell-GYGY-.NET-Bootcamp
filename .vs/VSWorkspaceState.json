@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PasswordValidationProgram"
   ],
-  "SelectedNode": "\\PasswordValidationProgram.sln",
+  "SelectedNode": "\\PasswordValidationProgram\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

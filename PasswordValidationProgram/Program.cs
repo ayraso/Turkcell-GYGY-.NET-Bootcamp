@@ -126,3 +126,4 @@ enum StrengthLevel
     Medium  = 2,
     Strong  = 3
 };
+

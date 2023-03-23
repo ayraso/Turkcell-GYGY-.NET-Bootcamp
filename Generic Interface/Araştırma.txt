@@ -1,0 +1,49 @@
+
+Covariance
+Yavrudan ataya doðru bir genelleþtirmedir. 
+Inheritance kavramýyla ayný doðrultuda çalýþýr.
+Ör.: 
+Bira bardaðý bir meþrubat bardaðýdýr.
+yavru-------      ata     ----------
+Bardak, kovaryanttýr.
+
+Contravariance
+Atadan yavruya doðru bir genelleþtirmedir.
+Ör.:
+Alkol baðýmlýsý bira baðýmlýsýdýr.
+ata --------- yavru  -------------
+Baðýmlý olan kiþi, kontravaryanttýr.
+
+
+Read/Write-Only
+
+covariance = read-only
+Ör.:
+Meþrubat bardaðýna biranýn yaný sýra gazoz da konulursa, o bardak artýk sadece bira bardaðý olmaz.
+Bira bardaðýnýn meþrubat bardaðýna yeni eklenen özellikler yüzünden deðiþmesini istemeyiz. Bu yüzden;
+"Bira bardaðý bir meþrubat bardaðýdýr." cümlesi aþaðýdaki gibi deðiþir.:
+"Bira bardaðý, meþrubat bardaðý hiç deðiþtirilmediði sürece hem bira bardaðý hem de meþrubat bardaðýdýr."
+Bu da covariant bardak nesnesini read-only olmak zorunda býrakýr.
+
+contravariance = write-only
+Ör.:
+Alkol baðýmlýsý neye baðýmlý olduðunu söylerse (programla konseptinde 'return' ederse),
+alkol baðýmlýsý kiþinin bira baðýmlýlýðý yerine votka baðýmlýlýðý return etme olasýlýðý ortaya çýkar.
+Bu durum, "Alkol baðýmlýsý bira baðýmlýsýdýr." cümlesinin her koþulda doðru olmasýný engeller.
+Bu yüzden önerme aþaðýdaki þekilde deðiþir.:
+"Baðýmlý kiþi, biz neye baðýmlý olduðunu bilmediðimiz sürece hem bira hem de alkol baðýmlýsýdýr."
+Bu da baðýmlý kiþi nesnesini write-only olmak zorunda býrakýr.
+
+Toparlamak gerekirse; 
+Bardak her zaman yalnýzca T return eder ve hiçbir zaman parametre almaz. 
+Baðýmlý kiþi hiçbir zaman return etmez ve her zaman sadece T parametresi alýr.
+
+Invariance = neither
+
+
+
+
+https://web.archive.org/web/20140626123445/http://adamnathan.co.uk/?p=75
+
+
+
