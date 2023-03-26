@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PasswordValidationProgram"
+    "\\Generic Interface",
+    "\\PasswordValidationProgram",
+    "\\Solid Principles"
   ],
-  "SelectedNode": "\\PasswordValidationProgram\\Program.cs",
+  "SelectedNode": "\\Solid Principles",
   "PreviewInSolutionExplorer": false
 }
