@@ -18,7 +18,10 @@ namespace SingleResponsibility
             Flight newFlight = new Flight(companyName, pointOfDeparture, departureTime, departureGate, pointOfArrival, arrivalTime) { };
             this.Flights.Add(newFlight.Id, newFlight);
         }
-        public void DeleteFlight(Flight flight) { }
+        public void DeleteFlight(Flight flight) 
+        {
+            Flights.Remove(flight.Id);
+        }
         public void UpdateFlight(Flight flight) { }
     }
 }
