@@ -8,6 +8,7 @@ namespace SingleResponsibility
 {
     public class Flight
     {
+        public Flight() { }
         public Flight(String companyName,
                       String pointOfDeparture, DateTime departureTime, String departureGate,
                       String pointOfArrival, DateTime arrivalTime) 

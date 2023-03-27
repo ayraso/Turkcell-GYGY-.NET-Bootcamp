@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SingleResponsibility
 {
-    public interface Delayed
+    class readme
     {
 
     }
