@@ -1,0 +1,15 @@
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\bin\Debug\net6.0\OpenClosed.exe
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\bin\Debug\net6.0\OpenClosed.deps.json
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\bin\Debug\net6.0\OpenClosed.runtimeconfig.json
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\bin\Debug\net6.0\OpenClosed.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\bin\Debug\net6.0\OpenClosed.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\OpenClosed.csproj.AssemblyReference.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\OpenClosed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\OpenClosed.AssemblyInfoInputs.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\OpenClosed.AssemblyInfo.cs
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\OpenClosed.csproj.CoreCompileInputs.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\OpenClosed.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\refint\OpenClosed.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\OpenClosed.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\OpenClosed.genruntimeconfig.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\OpenClosed\obj\Debug\net6.0\ref\OpenClosed.dll

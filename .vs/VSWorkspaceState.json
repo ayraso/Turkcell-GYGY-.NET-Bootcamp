@@ -3,8 +3,9 @@
     "",
     "\\Generic Interface",
     "\\PasswordValidationProgram",
-    "\\Solid Principles"
+    "\\Solid Principles",
+    "\\Solid Principles\\SingleResponsibility"
   ],
-  "SelectedNode": "\\Solid Principles",
+  "SelectedNode": "\\Solid Principles\\SingleResponsibility",
   "PreviewInSolutionExplorer": false
 }
