@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LiskovSubstution
 {
-    public class TheaterStyleConferenceHall : ISeminarHall
+    public class TheaterStyleSeminarHall : ISeminarHall
     {
         public DateTime ReservationStartDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public int ReservationDuration { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
