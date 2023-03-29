@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LiskovSubstution
 {
-    public interface IHotelRoom
+    public interface IHotelRoom : IReservable
     {
+        public string Code { get; set; }
+
     }
 }

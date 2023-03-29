@@ -1,10 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-using LiskovSubstution;
-
-Console.WriteLine("Hello, World!");
+﻿using LiskovSubstution;
 
 Reservation.ReserveSeminarHall(150);
 
 ISeminarHall paidHall = Reservation.ReserveSeminarHall(70);
 paidHall.Code = "VM302";
 Console.WriteLine(paidHall.Code);
+
+IHotelRoom paidRoom = Reservation.ReserveHotelRoom(3);
+paidRoom.Code = "BL214";
+Console.WriteLine(paidRoom.Code);
+
+

@@ -10,4 +10,5 @@ namespace LiskovSubstution
     {
         public string Code {get; set;}
     }
+
 }

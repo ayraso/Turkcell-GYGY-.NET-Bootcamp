@@ -16,5 +16,20 @@ namespace LiskovSubstution
             }
             return new UShapedSeminarHall();
         }
+
+        public static IHotelRoom ReserveHotelRoom(int numOfPerson)
+        {
+            switch (numOfPerson)
+            {
+                case 1:
+                    return new SingleRoom();
+                case 2:
+                    return new DoubleRoom();
+                case 3:
+                    return new TripleRoom();
+                default:
+                    throw new NotImplementedException();
+            }
+        }
     }
 }
