@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace LiskovSubstution
 {
-    public interface IReservable
+    public interface ICar
     {
-        public DateTime ReservationStartDate { get; set; }
-        public int ReservationDuration { get; set; } 
+
     }
 }

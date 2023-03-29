@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace LiskovSubstution
 {
-    public interface IReservation
+    public interface IHotelRoom
     {
-
     }
 }
