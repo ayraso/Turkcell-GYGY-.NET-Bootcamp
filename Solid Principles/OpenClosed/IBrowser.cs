@@ -9,7 +9,7 @@ namespace OpenClosed
     internal interface IBrowser
     {
         void ClearSearchHistory();
-        public void ChangeDefaultBrowserTo(ISearchEngine searchEngine);
+        public void ChangeDefaultSearchEngineTo(ISearchEngine searchEngine);
         void Search(string query);
     }
 }

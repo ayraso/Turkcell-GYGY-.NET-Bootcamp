@@ -17,7 +17,7 @@ namespace OpenClosed
         {
             Console.WriteLine("Arama geçmişiniz cihazınızdan kalıcı olarak silinmiştir.");
         }
-        public void ChangeDefaultBrowserTo(ISearchEngine searchEngine)
+        public void ChangeDefaultSearchEngineTo(ISearchEngine searchEngine)
         {
             this.DefaultSearchEngine = searchEngine;
         }
