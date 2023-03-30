@@ -1,0 +1,15 @@
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.exe
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.deps.json
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.runtimeconfig.json
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.csproj.AssemblyReference.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.AssemblyInfoInputs.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.AssemblyInfo.cs
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.csproj.CoreCompileInputs.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\refint\InterfaceSegregation.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.genruntimeconfig.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Solid Principles\InterfaceSegregation\obj\Debug\net6.0\ref\InterfaceSegregation.dll
