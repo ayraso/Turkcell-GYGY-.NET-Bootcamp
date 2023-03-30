@@ -9,13 +9,7 @@ namespace InterfaceSegregation
 {
     public interface IBusinessAccountFeatures
     {
-        public void Advertise()
-        {
-
-        }
-        public void ViewAccountAnalytics()
-        {
-
-        }
+        public void Advertise();
+        public void ViewAccountAnalytics();
     }
 }

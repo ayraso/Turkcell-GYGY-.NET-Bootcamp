@@ -8,6 +8,11 @@ namespace InterfaceSegregation
 {
     public class BusinessAccount : IPostInteractions, IAccountInteractions, IBusinessAccountFeatures
     {
+        public void Advertise()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Block()
         {
             throw new NotImplementedException();
@@ -39,6 +44,11 @@ namespace InterfaceSegregation
         }
 
         public void Unfollow()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ViewAccountAnalytics()
         {
             throw new NotImplementedException();
         }
