@@ -10,6 +10,6 @@ namespace InterfaceSegregation
     {
         public Post MakePost(string content);
         public void LikePost(Post post);
-        public void CommentingOnPost();
+        public void CommentingOnPost(Post post, string comment);
     }
 }

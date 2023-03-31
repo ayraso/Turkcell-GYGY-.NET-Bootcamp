@@ -18,25 +18,20 @@ namespace InterfaceSegregation
         public int numOfFollowings { get; set; }
         public int numOfFollowers { get; set; }
 
-        public void Block()
+        public void Block(IAccountInfo user)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{user.Username} kullanıcısı engellendi.");
         }
 
-        public void CommentingOnPost()
+        public void CommentingOnPost(Post post, string comment)
         {
-            throw new NotImplementedException();
+            post.TotalComments++;
         }
 
         public void Follow(IAccountInfo user)
         {
             user.numOfFollowers++;
             this.numOfFollowings++;
-        }
-
-        public void Follow()
-        {
-            throw new NotImplementedException();
         }
 
         public void LikePost(Post post)
@@ -52,9 +47,9 @@ namespace InterfaceSegregation
             return newPost;
         }
 
-        public void SendMessage()
+        public void SendMessage(IAccountInfo user, string message)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"The message has been sent.");
         }
 
         public void Unfollow(IAccountInfo user)
@@ -63,9 +58,5 @@ namespace InterfaceSegregation
             this.numOfFollowings--;
         }
 
-        public void Unfollow()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

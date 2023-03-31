@@ -23,3 +23,5 @@ Console.WriteLine($"{SalvorHardin.Username} hesabının {SalvorHardin.numOfFollo
 Console.WriteLine($"{HaroldFinch.Username} hesabının {HaroldFinch.numOfFollowers} adet takipçisi var.");
 Console.WriteLine($"{PrimeVideoTr.Username} hesabının {PrimeVideoTr.numOfFollowers} adet takipçisi var.");
 
+PrimeVideoTr.CommentingOnPost(post2, "'The Last of Us'ı gece izlemeyi sevenler burada mı?");
+HaroldFinch.CommentingOnPost(post2, "Hayır, ama mantar yemeyi gece de gündüz de severim.");

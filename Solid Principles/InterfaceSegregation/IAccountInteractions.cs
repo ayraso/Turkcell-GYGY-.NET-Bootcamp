@@ -8,9 +8,9 @@ namespace InterfaceSegregation
 {
     public interface IAccountInteractions
     {
-        public void SendMessage();
-        public void Follow();
-        public void Unfollow();
-        public void Block();
+        public void SendMessage(IAccountInfo user, string message);
+        public void Follow(IAccountInfo user);
+        public void Unfollow(IAccountInfo user);
+        public void Block(IAccountInfo user);
     }
 }

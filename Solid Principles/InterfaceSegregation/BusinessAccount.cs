@@ -20,22 +20,26 @@ namespace InterfaceSegregation
 
         public void Advertise()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Reklam içeriği dolaşıma sokuldu.");
         }
 
-        public void Block()
+        public void Block(IAccountInfo user)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{user.Username} kullanıcısı engellendi.");
+            Console.WriteLine($"Warning!\nTakipçilerinizi engellemeniz görüntülenme istatistiklerinizi etkileyebilir.");
+
         }
 
-        public void CommentingOnPost()
+        public void CommentingOnPost(Post post, string comment)
         {
-            throw new NotImplementedException();
+            post.TotalComments++;
+            Console.WriteLine($"Hint!\nKendi gönderilerinize gelen yorumları cevaplamanız sizi öne çıkartır.");
         }
 
-        public void Follow()
+        public void Follow(IAccountInfo user)
         {
-            throw new NotImplementedException();
+            user.numOfFollowers++;
+            this.numOfFollowings++;
         }
 
         public void LikePost(Post post)
@@ -51,19 +55,20 @@ namespace InterfaceSegregation
             return newPost;
         }
 
-        public void SendMessage()
+        public void SendMessage(IAccountInfo user, string message)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"The message has been sent.");
         }
 
-        public void Unfollow()
+        public void Unfollow(IAccountInfo user)
         {
-            throw new NotImplementedException();
+            user.numOfFollowers--;
+            this.numOfFollowings--;
         }
 
         public void ViewAccountAnalytics()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Ayrıntılı hesap analiziniz gösteriliyor.");
         }
     }
 }
