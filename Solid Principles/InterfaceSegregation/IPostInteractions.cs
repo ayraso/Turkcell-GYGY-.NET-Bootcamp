@@ -8,8 +8,8 @@ namespace InterfaceSegregation
 {
     public interface IPostInteractions
     {
-        public void MakePost();
-        public void LikePost();
+        public Post MakePost(string content);
+        public void LikePost(Post post);
         public void CommentingOnPost();
     }
 }

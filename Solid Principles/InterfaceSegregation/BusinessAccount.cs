@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregation
 {
-    public class BusinessAccount : IPostInteractions, IAccountInteractions, IBusinessAccountFeatures
+    public class BusinessAccount : IPostInteractions, IAccountInteractions, IBusinessAccountFeatures, IAccountInfo
     {
+        public BusinessAccount(string username) 
+        {
+            this.Id = Guid.NewGuid();
+            this.Username = username;
+        }
+        public string Username { get; set; }
+        public Guid Id { get; set; }
+        public int numOfFollowings { get; set; }
+        public int numOfFollowers { get; set; }
+
         public void Advertise()
         {
             throw new NotImplementedException();
@@ -28,14 +38,17 @@ namespace InterfaceSegregation
             throw new NotImplementedException();
         }
 
-        public void LikePost()
+        public void LikePost(Post post)
         {
-            throw new NotImplementedException();
+            post.TotalLikes += 1;
         }
 
-        public void MakePost()
+        public Post MakePost(string content)
         {
-            throw new NotImplementedException();
+            Post newPost = new Post(content, this);
+            Console.WriteLine("A new post!");
+            Console.WriteLine($"{this.Username}: {newPost.Content}");
+            return newPost;
         }
 
         public void SendMessage()
