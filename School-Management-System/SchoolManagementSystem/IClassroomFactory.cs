@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolManagementSystem
 {
-    public interface IClassroomFactory
+    public interface IClassroomFactory : IFactory<IClassroom>
     {
         IClassroom CreateClassroom(int grade, char section, char? programType = null);
         

@@ -26,7 +26,7 @@ namespace SchoolManagementSystem
                 }
                 else //(programType == 's')
                 {
-                    return new LanguageFocusedClassroom(grade, section);
+                    return new ScienceFocusedClassroom(grade, section);
                 }
             }
         }

@@ -9,14 +9,14 @@ namespace SchoolManagementSystem
 {
     public class ExchangeStudent : IStudent
     {
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public int Id { get; set; }
         public ExchangeStudent(string name, string surname)
         {
             this.Name = name;
             this.Surname = surname;
         }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public int Id { get; set; }
 
         public void SubmitHomework()
         {
