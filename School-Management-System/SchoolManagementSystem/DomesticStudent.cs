@@ -29,8 +29,8 @@ namespace SchoolManagementSystem
 
         public void TakeTheQuiz()
         {
-            QuizLanguage takeTheQuiz = new QuizLanguage(TakeQuizInEnglish);
-            takeTheQuiz();
+            Translator quizTranslator = new Translator(TakeQuizInEnglish);
+            quizTranslator();
         }
         public void TakeQuizInEnglish()
         {

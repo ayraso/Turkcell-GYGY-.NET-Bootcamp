@@ -10,13 +10,10 @@ namespace SchoolManagementSystem
     {
         public string Name { get; set; }
         public string Surname { get; set; }
-
-        //delegate void GreetingDelegate(string name);
-
         public void ViewTranscript();
         public void SubmitHomework();
         public void TakeTheQuiz();
 
-        public delegate void QuizLanguage();
+        public delegate void Translator();
     }
 }
