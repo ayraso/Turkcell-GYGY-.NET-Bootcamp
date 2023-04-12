@@ -1,0 +1,15 @@
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\bin\Debug\net6.0\SchoolManagementSystem.exe
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\bin\Debug\net6.0\SchoolManagementSystem.deps.json
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\bin\Debug\net6.0\SchoolManagementSystem.runtimeconfig.json
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\bin\Debug\net6.0\SchoolManagementSystem.dll
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\bin\Debug\net6.0\SchoolManagementSystem.pdb
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\SchoolManagementSystem.csproj.AssemblyReference.cache
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\SchoolManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\SchoolManagementSystem.AssemblyInfoInputs.cache
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\SchoolManagementSystem.AssemblyInfo.cs
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\SchoolManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\SchoolManagementSystem.dll
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\refint\SchoolManagementSystem.dll
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\SchoolManagementSystem.pdb
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\SchoolManagementSystem.genruntimeconfig.cache
+C:\Users\ayser\source\repos\School-Management-System\SchoolManagementSystem\obj\Debug\net6.0\ref\SchoolManagementSystem.dll
