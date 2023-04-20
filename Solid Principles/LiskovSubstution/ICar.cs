@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LiskovSubstution
 {
-    public interface ICar
+    public interface ICar : IReservable
     {
 
     }
