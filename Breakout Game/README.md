@@ -1,7 +1,7 @@
 ```JavaScript
 var ctx = canvas.getContext("2d");
 ```
-Bir html elementi için 2D çizim bağlamı oluşturur.
+Bir canvas html elementi için 2D çizim bağlamı oluşturur.
 
 # Farklı çizim bağlamları
 -**2d**: 2 boyutlu çizimler ve grafikler için kullanılır.
