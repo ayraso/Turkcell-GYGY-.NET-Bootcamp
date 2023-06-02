@@ -17,14 +17,17 @@ namespace TodoApp.Infrastructure.Repositories
         public EFCoreTodoRepository(TodoDbContext context)
         {
             _context = context;
+            //this.AddItemAsync(new TodoItem { Id = 1, Title = "Biotin takviyesi al", IsCompleted = false, CreatedAt = DateTime.Now });
+            //this.AddItemAsync(new TodoItem { Id = 2, Title = "Omega-3 takviyesi al", IsCompleted = false, CreatedAt = DateTime.Now });
+
         }
 
-        public async Task<List<TodoItem>> GetAllItemsAsync()
+        public async Task<List<TodoItem>> GetAllAsync()
         {
             return await _context.TodoItems.ToListAsync();
         }
 
-        public async Task<TodoItem> GetItemByIdAsync(int id)
+        public async Task<TodoItem> GetByIdAsync(int id)
         {
             return await _context.TodoItems.FindAsync(id);
         }

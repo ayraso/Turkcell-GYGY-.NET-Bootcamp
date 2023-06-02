@@ -7,10 +7,10 @@ using TodoApp.Domain.Entities;
 
 namespace TodoApp.Domain.Repositories
 {
-    public interface ITodoRepository : IRepository<TodoItem>
+    public interface ICategoryRepository : IRepository<CategoryItem>
     {
-        Task AddItemAsync(TodoItem item);
-        Task UpdateItemAsync(TodoItem item);
-        Task DeleteItemAsync(int id);
+
+        
     }
+
 }
