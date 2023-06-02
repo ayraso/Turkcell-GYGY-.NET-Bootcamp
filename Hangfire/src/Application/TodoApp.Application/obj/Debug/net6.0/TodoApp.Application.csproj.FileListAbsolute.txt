@@ -1,0 +1,17 @@
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\bin\Debug\net6.0\TodoApp.Application.deps.json
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\bin\Debug\net6.0\TodoApp.Application.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\bin\Debug\net6.0\TodoApp.Application.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\bin\Debug\net6.0\TodoApp.Domain.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\bin\Debug\net6.0\TodoApp.Infrastructure.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\bin\Debug\net6.0\TodoApp.Domain.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\bin\Debug\net6.0\TodoApp.Infrastructure.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\TodoApp.Application.csproj.AssemblyReference.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\TodoApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\TodoApp.Application.AssemblyInfoInputs.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\TodoApp.Application.AssemblyInfo.cs
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\TodoApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\TodoApp.Application.csproj.CopyComplete
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\TodoApp.Application.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\refint\TodoApp.Application.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\TodoApp.Application.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Hangfire\src\Application\TodoApp.Application\obj\Debug\net6.0\ref\TodoApp.Application.dll
