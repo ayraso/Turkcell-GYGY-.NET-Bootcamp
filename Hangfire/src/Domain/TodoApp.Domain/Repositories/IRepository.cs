@@ -11,5 +11,8 @@ namespace TodoApp.Domain.Repositories
     {
         Task<T> GetByIdAsync(int id);
         Task<List<T>> GetAllAsync();
+        Task AddItemAsync(T item);
+        Task UpdateItemAsync(T item);
+        Task DeleteItemAsync(int id);
     }
 }

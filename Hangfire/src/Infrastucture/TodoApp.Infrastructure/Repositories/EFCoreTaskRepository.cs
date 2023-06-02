@@ -10,11 +10,11 @@ using TodoApp.Infrastructure.Data;
 
 namespace TodoApp.Infrastructure.Repositories
 {
-    public class EFCoreTodoRepository : ITodoRepository
+    public class EFCoreTaskRepository : ITaskRepository
     {
         private readonly TodoDbContext _context;
 
-        public EFCoreTodoRepository(TodoDbContext context)
+        public EFCoreTaskRepository(TodoDbContext context)
         {
             _context = context;
             //this.AddItemAsync(new TodoItem { Id = 1, Title = "Biotin takviyesi al", IsCompleted = false, CreatedAt = DateTime.Now });

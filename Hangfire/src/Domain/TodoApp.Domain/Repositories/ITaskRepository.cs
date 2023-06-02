@@ -7,10 +7,8 @@ using TodoApp.Domain.Entities;
 
 namespace TodoApp.Domain.Repositories
 {
-    public interface ITodoRepository : IRepository<TodoItem>
+    public interface ITaskRepository : IRepository<TodoItem>
     {
-        Task AddItemAsync(TodoItem item);
-        Task UpdateItemAsync(TodoItem item);
-        Task DeleteItemAsync(int id);
+        
     }
 }
