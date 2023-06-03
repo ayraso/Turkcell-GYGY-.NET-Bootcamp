@@ -32,3 +32,5 @@ Projenize aşağıdaki Nuget paketlerini eklemeniz gerekmektedir.
 1. Hangfire
 2. Hangfire.SqlServer
 3. Microsoft.Data.SqlClient
+
+Daha Fazla Bilgi İçin: https://www.hangfire.io/
