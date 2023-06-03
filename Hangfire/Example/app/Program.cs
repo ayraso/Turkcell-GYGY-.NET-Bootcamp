@@ -27,16 +27,11 @@ namespace app
 
         public static void CopyFiles()
         {
-            // Kopyalanacak dosyaların kaynak klasörü
+            
             string sourceFolder = "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Hangfire\\Example\\data\\source";
-
-            // Kopyalanacak dosyaların hedef klasörü
             string destinationFolder = "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Hangfire\\Example\\data\\backup";
-
-            // Kaynak klasördeki dosyaları al
             string[] files = Directory.GetFiles(sourceFolder);
 
-            // Dosyaları kopyala ve tarih/saat ekleyerek hedef klasöre yapıştır
             foreach (string file in files)
             {
                 string fileName = Path.GetFileName(file);
