@@ -2,7 +2,6 @@
 using Hangfire.SqlServer;
 using System;
 using System.IO;
-using System.IO.Compression;
 using System.Linq;
 
 
@@ -42,9 +41,14 @@ namespace app
                 string destinationPath = Path.Combine(destinationFolder, DateTime.Now.ToString("yyyyMMdd_HHmmss_") + fileName);
                 File.Copy(file, destinationPath);
             }
+            string finishTime = DateTime.Now.ToString("yyyyMMdd_HHmmss");
 
+            // FireAndforget job that calculates the size of back-up files.
             BackgroundJob.Enqueue(()=>PrintFileSizes(destinationFolder));
-            
+
+            // Delayed job that prints a message to the user about last backup time.
+            BackgroundJob.Schedule(()=>SendNotification(finishTime), TimeSpan.FromSeconds(2));
+
         }
 
         public static void PrintFileSizes(string folderPath)
@@ -58,9 +62,14 @@ namespace app
                 totalSize += fileInfo.Length;
             }
 
-            Console.WriteLine($"Toplam boyut: {totalSize} bytes");
+            Console.WriteLine($"Toplam yedeklenen boyut: {totalSize} bytes");
+
         }
 
+        public static void SendNotification(string time)
+        {
+            Console.WriteLine($"Dosyalarınız en son {time} tarihinde yedeklendi.");
+        }
         
 
     }
