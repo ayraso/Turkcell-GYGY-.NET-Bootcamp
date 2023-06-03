@@ -37,15 +37,25 @@ Projenize aşağıdaki Nuget paketlerini eklemeniz gerekmektedir.
 
 # Hangfire'ın Kullandığı Tablolar
 1. **Hangfire.Job**: Tanımlanan işlerin bilgilerini içerir. Job'ın adı, parametreleri, başlangıç ve bitiş zamanı gibi bilgiler bu tabloda tutulur.
+
 2. **Hangfire.State**: İşlerin durumlarını temsil eder. İşlerin hangi aşamada olduğunu (başarılı, başarısız, iptal edildi vb.) ve ilgili hata veya ayrıntı bilgilerini depolar.
+
 3. **Hangfire.Hash**: Hangfire'ın dağıtılmış görev durumlarını depolamak için kullanılır. Örneğin, bir işin birden fazla adıma sahip olduğu durumlarda, adımların durumları bu tabloda tutulur.
+
 4. **Hangfire.Server**: Hangfire sunucusunun bilgilerini içerir. Sunucu adı, son kontrol zamanı gibi bilgiler bu tabloda tutulur.
+
 5. **Hangfire.Lock**: Hangfire'ın eş zamanlılık ve senkronizasyonu sağlamak için kullanılan kilitleme mekanizmasını destekler. Birden fazla işin aynı anda çalışmasını, aynı kaynağı kullanmasını engellemek için bu tablo kullanılır. Lock'ın adı, sahibi, son değişiklik zamanı gibi bilgiler tutulur.
+
 6. **Hangfire.AggregatedCounter**: İşlerin veya iş gruplarının istatistiksel bilgilerini toplamak için kullanılan tablodur. İşin türü, tarihi gibi bilgileri içerir. Örneğin, bir işin ne sıklıkla çalıştığını veya belirli bir türdeki işlerin toplam sayısını takip etmek için kullanılabilir.
+
 7. **Hangfire.Counter**: İşlerin veya iş gruplarının sayaç bilgilerini saklamak için kullanılan tablodur. İşin türü, kimliği gibi bilgileri içerir. Örneğin, bir işin başarılı veya başarısız denemelerinin sayısını tutmak veya bir iş grubunun toplam iş sayısını saklamak için kullanılabilir.
+
 8. **Hangfire.JobParameter**: İşlerin parametrelerini saklamak için kullanılan tablodur.
+
 9. **Hangfire.JobQueue**: İşlerin çalışma sırasını yönetmek için kullanılan tablodur. Queue adı, JobId gibi bilgileri içerir. İşlerin hangi sırada çalışacaklarını belirlemek ve işleri planlamak için kullanılır.
+
 10. **Hangfire.Set**: İşlerin veya verilerin küme halinde saklanması için kullanılan tablodur. Kümeler, belirli bir anahtar (Key) altında gruplanan veri noktalarını içerir. Örneğin, zamanlanmış işlerin tutulduğu bir küme veya işlerin önceliklerini belirlemek için kullanılan bir küme oluşturulabilir.
+
 11. **Hangfire.Schema**: Hangfire tablolarının veritabanında doğru bir şekilde oluşturulduğunu izlemek için kullanılan tablodur. Hangfire'ın tablolarını ve şema sürümünü takip etmek için kullanılır.
 
 
