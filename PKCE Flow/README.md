@@ -26,15 +26,15 @@ Yetkilendirme iþlemleri için token saðlamak ve token'leri yönetmekle sorumludur.
 
 OAuth 2.0, farklý senaryolara ve kullaným durumlarýna göre çeþitli yetkilendirme akýþlarý (authorization flows) sunar. 
 
-**Authorization Code Flow**: Bu akýþ, güvenli ve önerilen akýþtýr ve OAuth 2.0'nin temelini oluþturur. Ýstemci, kullanýcýyý yetkilendirmek için authorization server'a yönlendirir. Kullanýcý kimlik doðrulamasý yaptýktan sonra, authorization server, istemciye bir yetkilendirme kodu verir. Ýstemci daha sonra yetkilendirme kodunu kullanarak authorization server'dan eriþim tokeni alýr.
+**Authorization Code Akýþý (Authorization Code Flow)**: Bu akýþ, güvenli ve önerilen akýþtýr ve OAuth 2.0'nin temelini oluþturur. Ýstemci, kullanýcýyý yetkilendirmek için authorization server'a yönlendirir. Kullanýcý kimlik doðrulamasý yaptýktan sonra, authorization server, istemciye bir yetkilendirme kodu verir. Ýstemci daha sonra yetkilendirme kodunu kullanarak authorization server'dan eriþim tokeni alýr.
 
-**Implicit Flow**: Bu akýþ, basit ve hýzlý bir yetkilendirme akýþýdýr, ancak daha düþük bir güvenlik seviyesine sahiptir. Ýstemci, kullanýcýyý doðrudan authorization server'a yönlendirir ve kullanýcý kimlik doðrulamasý yaptýktan sonra authorization server, eriþim tokenini doðrudan istemciye verir.
+**Implicit Akýþ (Implicit Flow)**: Bu akýþ, basit ve hýzlý bir yetkilendirme akýþýdýr, ancak daha düþük bir güvenlik seviyesine sahiptir. Ýstemci, kullanýcýyý doðrudan authorization server'a yönlendirir ve kullanýcý kimlik doðrulamasý yaptýktan sonra authorization server, eriþim tokenini doðrudan istemciye verir.
 
-**Resource Owner Password Credentials Flow**: Bu akýþ, güvenliðin daha düþük olduðu durumlarda kullanýlan bir akýþtýr. Ýstemci, kullanýcýnýn doðrudan kullanýcý adý ve parolasýný kullanarak authorization server'a yetkilendirme isteði yapar ve eriþim tokenini alýr. Bu akýþ, istemcinin kullanýcý adý ve parolayý doðrudan almasý gerektiði durumlarda (örneðin, güvenli bir mobil uygulamada) kullanýlabilir.
+**Resource Owner Password Credentials Akýþý (Resource Owner Password Credentials Flow)**: Bu akýþ, güvenliðin daha düþük olduðu durumlarda kullanýlan bir akýþtýr. Ýstemci, kullanýcýnýn doðrudan kullanýcý adý ve parolasýný kullanarak authorization server'a yetkilendirme isteði yapar ve eriþim tokenini alýr. Bu akýþ, istemcinin kullanýcý adý ve parolayý doðrudan almasý gerektiði durumlarda (örneðin, güvenli bir mobil uygulamada) kullanýlabilir.
 
-**Client Credentials Flow**: Bu akýþ, istemcinin (client) kimlik bilgilerini kullanarak authorization server'dan doðrudan eriþim tokeni almasýný saðlar. Bu akýþ, kullanýcý etkileþimi olmadan istemcinin kendi adýna kaynak sunucusuna eriþmesini gerektiren durumlarda kullanýlýr.
+**Client Credentials Akýþý (Client Credentials Flow)**: Bu akýþ, istemcinin (client) kimlik bilgilerini kullanarak authorization server'dan doðrudan eriþim tokeni almasýný saðlar. Bu akýþ, kullanýcý etkileþimi olmadan istemcinin kendi adýna kaynak sunucusuna eriþmesini gerektiren durumlarda kullanýlýr.
 
-# OAuth 2.0 Standardýnýn Akýþý
+# OAuth 2.0 Standardýnýn Genel Akýþý
 
      +--------+                               +---------------+
      |        |--(A)- Authorization Request ->|   Resource    |
