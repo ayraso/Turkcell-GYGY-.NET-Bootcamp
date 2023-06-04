@@ -7,6 +7,7 @@
 
 Bu iþlemler esnasýnda uygulama isteklerinin esas client'tan geldiðine emin olunmasý ihtiyacý doðmaktadýr. Çünkü, bir iþletim sistemi üzerinde veya web browser üzerinde çalýþan uygulamalarýn kimlik doðrulama bilgileri genel olarak eriþilebilirdir. Bu tarz uygulamalarýn kimlik bilgileri kullanýcýlarýn cihaz belleðinde veya depolama alanýnda saklanýrlar ve bu alanlarýn OS veya browserdaki baþka bir uygulama tarafýndan eriþilemediði garanti edilemez. Yani burada bir güvenlik açýðý kolayca doðabilir. OAuth, bu güvenlik açýðýný önlemek için geliþtirilen bir standarttýr.
 
+
 # OAuth Standardýnýn Bileþenleri
 4 temel bileþeni vardýr:
 
@@ -33,9 +34,7 @@ OAuth 2.0, farklý senaryolara ve kullaným durumlarýna göre çeþitli yetkilendirme
 
 **Client Credentials Akýþý (Client Credentials Flow)**: Bu akýþ, istemcinin (client) kimlik bilgilerini kullanarak authorization server'dan doðrudan eriþim tokeni almasýný saðlar. Bu akýþ, kullanýcý etkileþimi olmadan istemcinin kendi adýna kaynak sunucusuna eriþmesini gerektiren durumlarda kullanýlýr.
 
-
-
-# OAuth 2.0 Protokol Akýþý
+# OAuth 2.0 Standardýnýn Akýþý
 
      +--------+                               +---------------+
      |        |--(A)- Authorization Request ->|   Resource    |
@@ -56,8 +55,11 @@ OAuth 2.0, farklý senaryolara ve kullaným durumlarýna göre çeþitli yetkilendirme
      +--------+                               +---------------+
 
 
-**A**. Client, Resource Owner'dan yetkilendirme talebi ister. Request, HTTP GET isteði olarak yapýlýr. 
-Ýçeriði:
+#### (**A**)
+Client, Resource Owner'dan yetkilendirme talebi ister. Request, HTTP GET isteði olarak yapýlýr. Bu request, doðrudan þekilde gösterildiði gibi Resource Owner'a yapýlabildiði gibi dolaylý yoldan, Authorization Server'a request atýlarak da yapýlabilir. (Spotify hesabýnýzý baþka bir uygulamaya baðlamak istediðinizde, size uygulamanýn eriþim istediði kaynaklar hakkýnda bilgi verip 'Onaylýyor musunuz?' diye sorar.)
+
+Request Ýçeriði:
+
 **response_type***: Authorization Server'dan hangi response tipinin istendiði belirtilir. "code" deðeri authorization code akýþýný, "token" deðeri implicit akýþýný temsil eder. Implicit akýþ eriþim token'ini doðrudan almayý saðlayan baþka bir akýþtýr. Daha hýzlýdýr ancak güvenlik açýsýndan risklidir.
 
 **client_id**: Client kimlik bilgisini temsil eder. Bu id, uygulamanýn API kullanýmý için kaydolduðu anda Authorization Server tarafýndan Client'a verilmiþtir.
@@ -70,14 +72,71 @@ OAuth 2.0, farklý senaryolara ve kullaným durumlarýna göre çeþitli yetkilendirme
 Authorization Response alýndýðýnda, istemci state deðerini kontrol eder ve Authorization Request sýrasýnda gönderilen state deðeriyle eþleþtiðinden emin olur. Bu, istemcinin Authorization Response'un geçerli bir yanýt olduðunu doðrulamasýna yardýmcý olur ve potansiyel bir CSRF saldýrýsýný engeller. Eþleþmeyen veya boþ bir state deðeri, istemcinin Authorization Response'u reddetmesine veya iþleme almamasýna yol açabilir.
 
 
+#### (**B**) 
+
+#### (**C**)
+
+#### (**D**)
+
+#### (**E**)
+
+#### (**F**)
 
 
-**B**. 
 
-**C**.
+# Authorization Code Interception Attack
 
-**D**.
+    +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+
+    | End Device (e.g., Smartphone)  |
+    |                                |
+    | +-------------+   +----------+ | (6) Access Token  +----------+
+    | |Legitimate   |   | Malicious|<--------------------|          |
+    | |OAuth 2.0 App|   | App      |-------------------->|          |
+    | +-------------+   +----------+ | (5) Authorization |          |
+    |        |    ^          ^       |        Grant      |          |
+    |        |     \         |       |                   |          |
+    |        |      \   (4)  |       |                   |          |
+    |    (1) |       \  Authz|       |                   |          |
+    |   Authz|        \ Code |       |                   |  Authz   |
+    | Request|         \     |       |                   |  Server  |
+    |        |          \    |       |                   |          |
+    |        |           \   |       |                   |          |
+    |        v            \  |       |                   |          |
+    | +----------------------------+ |                   |          |
+    | |                            | | (3) Authz Code    |          |
+    | |     Operating System/      |<--------------------|          |
+    | |         Browser            |-------------------->|          |
+    | |                            | | (2) Authz Request |          |
+    | +----------------------------+ |                   +----------+
+    +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+
 
-**E**.
 
-**F**.
+
+
+
+
+
+# OAuth 2.0 PKCE 
+
+                                                 +-------------------+
+                                                 |   Authz Server    |
+       +--------+                                | +---------------+ |
+       |        |--(A)- Authorization Request ---->|               | |
+       |        |       + t(code_verifier), t_m  | | Authorization | |
+       |        |                                | |    Endpoint   | |
+       |        |<-(B)---- Authorization Code -----|               | |
+       |        |                                | +---------------+ |
+       |        |                                |                   |
+       |        |                                | +---------------+ |
+       |        |--(C)-- Access Token Request ---->|               | |
+       | Client |          + code_verifier       | |    Token      | |
+       |        |                                | |   Endpoint    | |
+       |        |<-(D)------ Access Token ---------|               | |
+       |        |                                | +---------------+ |
+       |        |                                +-------------------+
+       |        |
+       |        |                                  +---------------+
+       |        |--(E)----- Access Token --------->|    Resource   |
+       |        |                                  |     Server    |
+       |        |<-(F)--- Protected Resource ----->|               |
+       +--------+                                  +---------------+
