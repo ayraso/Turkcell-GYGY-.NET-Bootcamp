@@ -60,7 +60,7 @@ Client, Resource Owner'dan yetkilendirme talebi ister. Request, HTTP GET isteði 
 
 Request Ýçeriði:
 
-**response_type***: Authorization Server'dan hangi response tipinin istendiði belirtilir. "code" deðeri authorization code akýþýný, "token" deðeri implicit akýþýný temsil eder. Implicit akýþ eriþim token'ini doðrudan almayý saðlayan baþka bir akýþtýr. Daha hýzlýdýr ancak güvenlik açýsýndan risklidir.
+**response_type**: Authorization Server'dan hangi response tipinin istendiði belirtilir. "code" deðeri authorization code akýþýný, "token" deðeri implicit akýþýný temsil eder. Implicit akýþ eriþim token'ini doðrudan almayý saðlayan baþka bir akýþtýr. Daha hýzlýdýr ancak güvenlik açýsýndan risklidir.
 
 **client_id**: Client kimlik bilgisini temsil eder. Bu id, uygulamanýn API kullanýmý için kaydolduðu anda Authorization Server tarafýndan Client'a verilmiþtir.
 
