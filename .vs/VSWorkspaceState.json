@@ -4,8 +4,9 @@
     "\\Breakout Game",
     "\\Generic Interface",
     "\\PasswordValidationProgram",
-    "\\Solid Principles",
+    "\\PKCE Flow",
     "\\Solid Principles\\SingleResponsibility"
   ],
+  "SelectedNode": "\\PKCE Flow\\README.md",
   "PreviewInSolutionExplorer": false
 }
