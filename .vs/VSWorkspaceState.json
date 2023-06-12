@@ -1,16 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Breakout Game",
-    "\\Generic Interface",
-    "\\PasswordValidationProgram",
-    "\\PKCE Flow",
-    "\\Traffic-Violation-Reporting-System",
     "\\Traffic-Violation-Reporting-System\\TVRS",
     "\\Traffic-Violation-Reporting-System\\TVRS\\src",
     "\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI",
     "\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\Controllers"
   ],
-  "SelectedNode": "\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\Controllers\\AccountController.cs",
+  "SelectedNode": "\\Traffic-Violation-Reporting-System",
   "PreviewInSolutionExplorer": false
 }
