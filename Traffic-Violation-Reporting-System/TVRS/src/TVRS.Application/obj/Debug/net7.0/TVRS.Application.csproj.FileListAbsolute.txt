@@ -1,0 +1,17 @@
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\bin\Debug\net7.0\TVRS.Application.deps.json
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\bin\Debug\net7.0\TVRS.Application.dll
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\bin\Debug\net7.0\TVRS.Application.pdb
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\bin\Debug\net7.0\TVRS.Domain.dll
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\bin\Debug\net7.0\TVRS.Infrastructure.dll
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\bin\Debug\net7.0\TVRS.Domain.pdb
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\bin\Debug\net7.0\TVRS.Infrastructure.pdb
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\TVRS.Application.csproj.AssemblyReference.cache
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\TVRS.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\TVRS.Application.AssemblyInfoInputs.cache
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\TVRS.Application.AssemblyInfo.cs
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\TVRS.Application.csproj.CoreCompileInputs.cache
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\TVRS.Application.csproj.CopyComplete
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\TVRS.Application.dll
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\refint\TVRS.Application.dll
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\TVRS.Application.pdb
+C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Application\obj\Debug\net7.0\ref\TVRS.Application.dll

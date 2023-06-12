@@ -1,0 +1,32 @@
+﻿@model IEnumerable<TVRS.Application.DTOs.Responses.DisplayViolationReportResponse>
+
+<h1>View User History</h1>
+
+@if (Model.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Report ID</th>
+                <th>Report Date</th>
+                <th>Subtopic Name</th>
+                <th>Investigation Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var report in Model)
+            {
+                <tr>
+                    <td>@report.Id</td>
+                    <td>@report.ReportDate</td>
+                    <td>@report.SubtopicName</td>
+                    <td>@report.InvestigationStatusName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No reports found.</p>
+}

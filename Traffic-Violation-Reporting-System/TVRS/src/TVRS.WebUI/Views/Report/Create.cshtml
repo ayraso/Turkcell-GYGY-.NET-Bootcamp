@@ -1,0 +1,52 @@
+﻿@model ReportCreatingModel
+
+<h1>Index: İhlal Raporu Oluşturma Sayfası</h1>
+
+<form method="post" asp-action="CreateNewReport">
+
+    <!-- Sub Topic -->
+    <label for="Subtopic">Sub Topic:</label>
+    <select id="Subtopic" asp-for="NewReport.SubtopicId">
+        <option value="0">None</option>
+        @foreach (var item in Model.Subtopics)
+        {
+            <option value="@item.Id">@item.Title</option>
+        }
+    </select>
+
+    <!-- District -->
+    <label for="District">District:</label>
+    <select id="District" asp-for="NewReport.DistrictId">
+        <option value="0">None</option>
+        @foreach (var item in Model.Districts)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+
+    <!-- IncidentScene -->
+    <div>
+        <label for="IncidentScene">Incident Scene:</label>
+        <textarea id="IncidentScene" asp-for="NewReport.IncidentScene"></textarea>
+    </div>
+
+    <!-- IncidentDate -->
+    <div>
+        <label for="IncidentDate">Incident Date:</label>
+        <input id="IncidentDate" type="date" asp-for="NewReport.IncidentDate">
+    </div>
+
+    <!-- IncidentTime -->
+    <div>
+        <label for="IncidentTime">Incident Time:</label>
+        <input id="IncidentTime" type="time" asp-for="NewReport.IncidentTime">
+    </div>
+
+    <!-- IncidentDescription -->
+    <div>
+        <label for="IncidentDescription">Incident Description:</label>
+        <textarea id="IncidentDescription" asp-for="NewReport.IncidentDescription"></textarea>
+    </div>
+
+    <button type="submit">Gönder</button>
+</form>

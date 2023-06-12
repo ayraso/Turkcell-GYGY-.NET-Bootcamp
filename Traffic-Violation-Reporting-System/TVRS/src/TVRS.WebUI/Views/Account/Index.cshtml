@@ -1,0 +1,30 @@
+﻿@model LoginUser
+
+<h2>Index: GİRİŞ</h2>
+
+@using (Html.BeginForm())
+{
+
+    <div>
+        <label for="tin">TC Kimlik Numarası:</label>
+        @Html.TextBoxFor(model => model.Tin)
+        @Html.ValidationMessageFor(model => model.Tin)
+    </div>
+
+    <div>
+        <label for="pswd">Şifre:</label>
+        @Html.PasswordFor(model => model.Password)
+        @Html.ValidationMessageFor(model => model.Password)
+    </div>
+
+    <button type="submit" asp-controller="Account" asp-action="Login" method="post">
+        Giriş
+    </button>
+
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p>@ViewBag.ErrorMessage</p>
+}
+
