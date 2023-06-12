@@ -5,8 +5,12 @@
     "\\Generic Interface",
     "\\PasswordValidationProgram",
     "\\PKCE Flow",
-    "\\Solid Principles\\SingleResponsibility"
+    "\\Traffic-Violation-Reporting-System",
+    "\\Traffic-Violation-Reporting-System\\TVRS",
+    "\\Traffic-Violation-Reporting-System\\TVRS\\src",
+    "\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI",
+    "\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\Controllers"
   ],
-  "SelectedNode": "\\PKCE Flow\\README.md",
+  "SelectedNode": "\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\Controllers\\AccountController.cs",
   "PreviewInSolutionExplorer": false
 }
