@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Traffic-Violation-Reporting-System"
+    "\\Traffic-Violation-Reporting-System",
+    "\\Traffic-Violation-Reporting-System\\TVRS"
   ],
-  "SelectedNode": "\\Traffic-Violation-Reporting-System",
+  "SelectedNode": "\\Traffic-Violation-Reporting-System\\TVRS\\TVRS.sln",
   "PreviewInSolutionExplorer": false
 }

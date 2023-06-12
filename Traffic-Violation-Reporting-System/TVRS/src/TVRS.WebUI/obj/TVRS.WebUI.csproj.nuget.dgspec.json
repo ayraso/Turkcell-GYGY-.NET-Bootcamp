@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj": {}
+    "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj": {
+    "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj",
         "projectName": "TVRS.Application",
-        "projectPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj",
+        "projectPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj",
         "packagesPath": "C:\\Users\\ayser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\obj\\",
+        "outputPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj": {
-                "projectPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj"
+              "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj": {
+                "projectPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj"
               },
-              "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj"
+              "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj": {
+    "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj",
         "projectName": "TVRS.Domain",
-        "projectPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj",
+        "projectPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj",
         "packagesPath": "C:\\Users\\ayser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayser\\Source\\Repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj": {
+    "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj",
         "projectName": "TVRS.Infrastructure",
-        "projectPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\TVRS.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ayser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,8 +169,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj": {
-                "projectPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj"
+              "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj": {
+                "projectPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj"
               }
             }
           }
@@ -216,14 +216,14 @@
         }
       }
     },
-    "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj": {
+    "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj",
         "projectName": "TVRS.WebUI",
-        "projectPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj",
+        "projectPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj",
         "packagesPath": "C:\\Users\\ayser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\obj\\",
+        "outputPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -245,8 +245,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj": {
-                "projectPath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj"
+              "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj": {
+                "projectPath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Application\\TVRS.Application.csproj"
               }
             }
           }

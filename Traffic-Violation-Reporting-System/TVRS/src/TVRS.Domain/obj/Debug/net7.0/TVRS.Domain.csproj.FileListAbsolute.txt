@@ -10,3 +10,15 @@ C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Dom
 C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\refint\TVRS.Domain.dll
 C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\TVRS.Domain.pdb
 C:\Users\ayser\source\repos\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\ref\TVRS.Domain.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\bin\Debug\net7.0\TVRS.Domain.deps.json
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\bin\Debug\net7.0\TVRS.Domain.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\bin\Debug\net7.0\TVRS.Domain.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\TVRS.Domain.csproj.AssemblyReference.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\TVRS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\TVRS.Domain.AssemblyInfoInputs.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\TVRS.Domain.AssemblyInfo.cs
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\TVRS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\TVRS.Domain.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\refint\TVRS.Domain.dll
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\TVRS.Domain.pdb
+C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.Domain\obj\Debug\net7.0\ref\TVRS.Domain.dll

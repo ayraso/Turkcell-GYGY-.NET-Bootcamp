@@ -15,3 +15,59 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\ayser\source\repos\Turkcell-GYGY-.NET-Bootcamp\Traffic-Violation-Reporting-System\TVRS\src\TVRS.WebUI
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/Account/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/History/ViewAllHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVxWaWV3QWxsSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/History/ViewUserHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVxWaWV3VXNlckhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/Report/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/Report/ReportDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/User/AdminHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZG1pbkhvbWVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/User/Unauthorized.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVbmF1dGhvcml6ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/User/UserHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VySG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayser/source/repos/Turkcell-GYGY-.NET-Bootcamp/Traffic-Violation-Reporting-System/TVRS/src/TVRS.WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bjkpq0dy7o

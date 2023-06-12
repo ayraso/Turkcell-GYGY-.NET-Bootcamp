@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VHiEQLhLufkkdbbalQJyaBpf9KnQrj0ZsQrtSzk1LrJKdDY4N04sQe02fV1veEGcdoNYDW6Wn3yZX3kw48OBPQ==",
+  "dgSpecHash": "tF2BTXeFmMYbrRIfniXV9myjQOdqy+e+IJVuStiC/y3snTeIjSAZO70n4d/YgDWpUea59iDSbqaerFuGRCaJ1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.Domain\\TVRS.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayser\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\ayser\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",

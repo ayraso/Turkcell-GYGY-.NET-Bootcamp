@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OeepQ7aOzYpOV4NUDUYO77KhkEOTr2GYldEgCUMiep3CmZCmXQPDgrYjqlZmTI+QW6voshKq0LuUngJGnsBtbQ==",
+  "dgSpecHash": "6qPSCV+PKjuLaZlhH0jtgaMZpO47QgEYyd4zFd5HnRtNtYaJ3gyiSxeBTBusn1KCKp5OJVJDOAvH+zHxpDTDBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayser\\source\\repos\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\ayser\\source\\repos\\Turkcell-GYGY-.NET-Bootcamp\\Traffic-Violation-Reporting-System\\TVRS\\src\\TVRS.WebUI\\TVRS.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayser\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ayser\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
